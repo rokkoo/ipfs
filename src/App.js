@@ -51,6 +51,7 @@ function App() {
             <input type="file" onChange={captureFile} />
             <br />
          </form>
+         <p>Hash: {hash}</p>
       </div>
    );
 }
